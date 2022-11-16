@@ -13,8 +13,8 @@ public class Part_4 {
         Bir bayt dizisi giriş akışı oluşturmak için, önce java.io.ByteArrayInputStream paketini içe aktarmalıyız.
          */
 
-        byte[] dizi={123,2,3,4,5};
-        ByteArrayInputStream inputStream=new ByteArrayInputStream(dizi);
+        byte[] dizi = {123, 2, 3, 4, 5};
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(dizi);
         int i = inputStream.read();
         while (i != -1) {
             System.out.println(i);
@@ -28,8 +28,8 @@ public class Part_4 {
 
         System.out.println("------");
 
-        byte[] dizi2={123,2,3,4,5};
-        ByteArrayInputStream inputStream2=new ByteArrayInputStream(dizi2);
+        byte[] dizi2 = {123, 2, 3, 4, 5};
+        ByteArrayInputStream inputStream2 = new ByteArrayInputStream(dizi2);
         inputStream2.skip(2);
         int ii = inputStream2.read();
         while (ii != -1) {
@@ -44,8 +44,8 @@ public class Part_4 {
 
         System.out.println("------");
 
-        byte[] dizi3={123,2,3,4,5};
-        ByteArrayInputStream inputStream3=new ByteArrayInputStream(dizi3,1,2);
+        byte[] dizi3 = {123, 2, 3, 4, 5};
+        ByteArrayInputStream inputStream3 = new ByteArrayInputStream(dizi3, 1, 2);
         inputStream3.skip(2);
         int i3 = inputStream3.read();
         while (i3 != -1) {

@@ -40,7 +40,7 @@ public class Part_2 {
         try {
             File file = new File("raheddin.text");
             FileInputStream inputStream = new FileInputStream(file);
-            System.out.println("karakter siize:"+inputStream.available());
+            System.out.println("karakter siize:" + inputStream.available());
             inputStream.read();
             inputStream.read();
             inputStream.read();
