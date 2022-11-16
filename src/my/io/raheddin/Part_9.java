@@ -23,3 +23,11 @@ public class Part_9 {
         }
     }
 }
+/*
+BufferedOutputStream
+Java.io paketinin BufferedOutputStream sınıfı,
+verileri (bayt cinsinden) daha verimli yazmak için diğer çıktı akışlarıyla birlikte kullanılır. OutputStream soyut sınıfını genişletir.
+BufferedOutputStream, 8192 baytlık bir dahili arabelleği korur. Yazma işlemi sırasında, baytlar disk yerine dahili tampona yazılır.
+Tampon doldurulduktan veya akış kapatıldıktan sonra, tüm tampon diske yazılır. Böylelikle diskle iletişim sayısı azalır.
+BufferedOutputStream kullanarak bayt yazmanın daha hızlı olmasının nedeni budur
+*/
