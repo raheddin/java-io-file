@@ -11,13 +11,13 @@ public class Part_16 {
      */
 
     public static void main(String[] args) {
-        String data="Raxeddin Asadzade!" +
+        String data = "Raxeddin Asadzade!" +
                 "Test" +
                 "esd";
 
         try {
-            FileWriter fileWriter=new FileWriter("Yeni..txt");
-            BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);
+            FileWriter fileWriter = new FileWriter("Yeni..txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(data);
             bufferedWriter.close();
             fileWriter.close();

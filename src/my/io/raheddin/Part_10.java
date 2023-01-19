@@ -13,8 +13,8 @@ public class Part_10 {
      Bunun yerine, içindeki herhangi bir hatayı bulmak için checkError() metodunu kullanmamız gerekir.*/
     public static void main(String[] args) {
         try {
-            PrintStream stream=new PrintStream("Raxa.txt");
-            stream.println(123+2+"Raheddin");
+            PrintStream stream = new PrintStream("Raxa.txt");
+            stream.println(123 + 2 + "Raheddin");
             stream.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

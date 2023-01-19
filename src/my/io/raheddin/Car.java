@@ -3,7 +3,7 @@ package my.io.raheddin;
 import java.io.Serializable;
 
 public class Car implements Serializable {
-    
+
     private String brand;
     private String model;
 

@@ -14,10 +14,10 @@ public class Part_15 {
 
     public static void main(String[] args) {
         try {
-            FileReader fileReader=new FileReader("Raxa.txt");
-            BufferedReader bufferedReader=new BufferedReader(fileReader);
-            String line =null;
-            while ((line=bufferedReader.readLine())!=null){
+            FileReader fileReader = new FileReader("Raxa.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
             }
         } catch (Exception e) {

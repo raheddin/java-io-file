@@ -9,8 +9,8 @@ Java.io paketinin FileWriter sınıfı, dosyalara (karakter olarak) veri yazmak 
      */
     public static void main(String[] args) {
         try {
-            String data="Rahəddin ıəpöğçş";
-            FileWriter fileWriter=new FileWriter("Yeni..txt");
+            String data = "Rahəddin ıəpöğçş";
+            FileWriter fileWriter = new FileWriter("Yeni..txt");
             fileWriter.write(data);
             fileWriter.close();
         } catch (Exception e) {

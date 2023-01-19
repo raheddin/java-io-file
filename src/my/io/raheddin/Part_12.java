@@ -17,17 +17,17 @@ public class Part_12 {
 
     public static void main(String[] args) {
         try {
-            String data ="Rahəddin əıpöğçş";
+            String data = "Rahəddin əıpöğçş";
 
-            FileOutputStream fileOutputStream =new FileOutputStream("Barca.txt");
+            FileOutputStream fileOutputStream = new FileOutputStream("Barca.txt");
 
-            OutputStreamWriter outputStreamWriter=new OutputStreamWriter(fileOutputStream);
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream);
 
             System.out.println(outputStreamWriter.getEncoding());
 
             outputStreamWriter.write(data);
 
-          //  fileOutputStream.close();
+            //  fileOutputStream.close();
             outputStreamWriter.close();
             fileOutputStream.close();
         } catch (Exception e) {

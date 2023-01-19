@@ -18,21 +18,21 @@ public class Part_11 {
     public static void main(String[] args) {
         try {
             FileInputStream fileInputStream = new FileInputStream("Raxa.txt");
-            int i=fileInputStream.read();
-            while (i!=-1){
+            int i = fileInputStream.read();
+            while (i != -1) {
                 System.out.print((char) i);
-                i=fileInputStream.read();
+                i = fileInputStream.read();
             }
 
             fileInputStream.close();
 
 
             FileInputStream newFileInputStream = new FileInputStream("Raxa.txt");
-            InputStreamReader inputStreamReader=new InputStreamReader(newFileInputStream, Charset.forName("UTF8"));
-            int y=inputStreamReader.read();
-            while (y!=-1){
+            InputStreamReader inputStreamReader = new InputStreamReader(newFileInputStream, Charset.forName("UTF8"));
+            int y = inputStreamReader.read();
+            while (y != -1) {
                 System.out.print((char) y);
-                y=inputStreamReader.read();
+                y = inputStreamReader.read();
             }
 
             newFileInputStream.close();
